@@ -26,3 +26,7 @@ dl.load({
 	execute = true,
 })
 print(ut.tostring(executetFiles))
+
+print("EXECUTE DIR")
+dl.executeDir("testFiles", "ORDER EXECUTION")
+print(ut.tostring(executetFiles))

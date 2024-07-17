@@ -1,4 +1,4 @@
-local version = "v1.0"
+local version = "v1.1"
 
 local utf8 = require("utf8")
 local ut = require("UT")
@@ -278,7 +278,7 @@ end
 
 local function executeDir(dir, name)
 	name = name or ""
-	dataExecutionLog("Prepare executeDir execution: " .. name .. " (" .. dir .. ")")
+	dataExecutionLog("Prepare execute execution: " .. name .. " (" .. dir .. ")")
 	local scripts = load({
 		target = {}, 
 		dir = dir, 
