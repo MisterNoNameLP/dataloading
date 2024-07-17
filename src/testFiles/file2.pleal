@@ -1,0 +1,5 @@
+local str = "pleal"
+
+print("file2.${str}")
+
+return "file2.pleal"

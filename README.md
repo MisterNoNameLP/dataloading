@@ -1,2 +1,2 @@
 # dataloading
-A lua ilibrary that dynamically loads folders with lua files. 
+A lua library that dynamically loads folders with lua and pleal files. 
